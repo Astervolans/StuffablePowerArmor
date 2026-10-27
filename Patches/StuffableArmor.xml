@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorRecon"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>60</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetRecon"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>10</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_PowerArmor"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>80</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_PowerArmorHelmet"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>20</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods><li>Royalty</li></mods>
+    <match Class="PatchOperationSequence"><operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorMarineGrenadier"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>80</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorLocust"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>100</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorCataphract"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>130</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetCataphract"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>30</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorCataphractPhoenix"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>130</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorMarinePrestige"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>100</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorMarineHelmetPrestige"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>30</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorReconPrestige"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>80</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetReconPrestige"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>20</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorCataphractPrestige"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>170</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetCataphractPrestige"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>55</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+    </operations></match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods><li>Biotech</li></mods>
+    <match Class="PatchOperationSequence"><operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_MechlordSuit"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>100</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetMechlordHelmet"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>100</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetMechCommander"]</xpath>
+        <value>
+          <defaultStuff>Plasteel</defaultStuff>
+          <costStuffCount>40</costStuffCount>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+    </operations></match>
+  </Operation>
+</Patch>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StuffablePowerArmor.SettingsCategory>Stuffable Power Armor</StuffablePowerArmor.SettingsCategory>
+  <StuffablePowerArmor.MaterialEffect>Material effect</StuffablePowerArmor.MaterialEffect>
+  <StuffablePowerArmor.MaterialEffectTooltip>How strongly the chosen material's properties carry over to the finished armor. 100% means the full difference between that material and plasteel is applied. Plasteel itself always produces the vanilla item. Changes take effect after restarting RimWorld.</StuffablePowerArmor.MaterialEffectTooltip>
+  <StuffablePowerArmor.PercentLabel>Material effect: {0}</StuffablePowerArmor.PercentLabel>
+  <StuffablePowerArmor.AllowedCategories>Allowed material categories</StuffablePowerArmor.AllowedCategories>
+  <StuffablePowerArmor.AllowedCategoriesTooltip>Which kinds of material may be used to build the supported armor. Metals are always available; other categories are optional. Changes take effect after restarting RimWorld.</StuffablePowerArmor.AllowedCategoriesTooltip>
+  <StuffablePowerArmor.CatWoody>Wood</StuffablePowerArmor.CatWoody>
+  <StuffablePowerArmor.CatFabric>Cloth and leather</StuffablePowerArmor.CatFabric>
+  <StuffablePowerArmor.CatStony>Stone blocks</StuffablePowerArmor.CatStony>
+  <StuffablePowerArmor.CatMetallic>Metals</StuffablePowerArmor.CatMetallic>
+  <StuffablePowerArmor.CatMetallicLocked>Metals are required and cannot be disabled.</StuffablePowerArmor.CatMetallicLocked>
+  <StuffablePowerArmor.CleanupButton>Clear material settings on all supported armor</StuffablePowerArmor.CleanupButton>
+  <StuffablePowerArmor.CleanupTooltip>Clears the chosen material on every supported armor item in this save, returning it to the vanilla default. Do this before removing the mod. Afterwards, save and exit.</StuffablePowerArmor.CleanupTooltip>
+  <StuffablePowerArmor.CleanupNone>No supported armor items were found in this save.</StuffablePowerArmor.CleanupNone>
+  <StuffablePowerArmor.CleanupDone>Cleared the material setting on {0} supported armor item(s).</StuffablePowerArmor.CleanupDone>
+  <StuffablePowerArmor.CleanupRemaining>Still found {0} supported armor item(s) with a material setting. Run the cleanup again.</StuffablePowerArmor.CleanupRemaining>
+  <StuffablePowerArmor.CleanupSafe>No custom material settings remain on supported armor. You can remove the mod, save and exit.</StuffablePowerArmor.CleanupSafe>
+  <StuffablePowerArmor.SafeToRemove>You can remove the mod. Please save and exit directly.</StuffablePowerArmor.SafeToRemove>
+  <StuffablePowerArmor.SettingsApplied>Settings applied.</StuffablePowerArmor.SettingsApplied>
+  <StuffablePowerArmor.NeedsRestart>Changes take effect after restarting RimWorld.</StuffablePowerArmor.NeedsRestart>
+  <StuffablePowerArmor.CleanupDialogTitle>Stuffable Power Armor</StuffablePowerArmor.CleanupDialogTitle>
+</LanguageData>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>定制材质动力甲 (Stuffable Power Armor) </name>
+  <author>UNSCLatios</author>
+  <packageId>astervolans.stuffablepowerarmor</packageId>
+  <modVersion>1.0.2</modVersion>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Odyssey</li>
+    <li>CETeam.CombatExtended</li>
+  </loadAfter>
+  <description>Makes imperial and mechanitor power armor stuffable, so the material you build it from matters.
+
+Supported items: recon armor/helmet, marine armor/helmet, cataphract (knight) armor/helmet, prestige recon/marine/cataphract armor and helmets, grenadier armor, locust armor, phoenix armor, mechlord suit, mechlord helmet, and mechcommander helmet.
+
+- Replaces most of the plasteel cost with a material of your choice, while keeping 20 plasteel as the fixed structural requirement. Building from plasteel reproduces the vanilla item exactly.
+- The strength of the material's effect on the finished armor is configurable from 20% to 100%; the item's material effect multiplier shows the applied percentage.
+- Choose which material categories are allowed: metals (default), wood, cloth/leather, or stone blocks.
+- Changes to the percentage or material categories take effect after restarting the game.
+- Hit-point ratios are preserved when the setting changes or when the cleanup button removes the material.
+- Existing armor from older saves is treated as plasteel.
+- A cleanup button in the mod settings clears the material selection on every supported item in the save and tells you when it is safe to remove the mod.
+- English and Chinese (Simplified) text included.
+
+&lt;size=20&gt;中文说明&lt;/size&gt;
+让帝国动力装甲与机械师装甲可以使用不同材料制作，材料会实际影响成品属性。
+
+支持物品：斥候装甲/头盔、海军装甲/头盔、骑士装甲/头盔、圣装斥候/海军/骑士装甲及头盔、掷弹装甲、飞蝗装甲、凤凰装甲、机械领主装甲、机械领主头盔、机械指挥官头盔。
+
+- 用自选材料替换装甲中的大部分玻璃钢，但固定保留20个玻璃钢。使用玻璃钢时属性与原版完全一致。
+- 材料对成品属性的影响程度可在20%~100%之间调整；物品属性中的“材料效果乘数”会显示实际应用的比例。
+- 可选择允许的材料类别：金属（默认）、木头、织物与皮革、石砖。
+- 修改材料影响比例或材料类别后，需要重启游戏才会生效。
+- 调整材料比例或使用清理按钮移除材料时，会保持物品当前耐久度占最大耐久的比例不变。
+- 旧存档中已有的装甲会自动视为玻璃钢材质。
+- 模组设置中提供清理按钮，可清除存档中所有受支持护甲的材料选择，并提示何时可以安全移除模组。
+- 内置英文与简体中文文本。</description>
+</ModMetaData>

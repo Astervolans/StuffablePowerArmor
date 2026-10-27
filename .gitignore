@@ -1,0 +1,26 @@
+# Build output
+Source/bin/
+Source/obj/
+bin/
+obj/
+dist/
+
+# Workspace-only toolchain / test harness
+tools/
+.tmp-rw/
+
+# Local research dumps from the game installation (not for redistribution)
+docs/vanilla/
+docs/api/
+docs/_evidence/
+
+# IDE / OS files
+.vs/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
+
+# Internal design/research notes
+docs/
+

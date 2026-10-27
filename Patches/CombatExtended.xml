@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--
+    Combat Extended compatibility.
+
+    CE's ApparelAutoPatcher runs once after all defs are resolved and inspects
+    StuffEffectMultiplierArmor. If that stat is missing (the vanilla power-armor defs do not
+    define it), CE replaces ArmorRating_Sharp/Blunt with the low-tier curve floor (the reported
+    "everything is 2 mm" bug) and the item stat card shows 0% material effect multiplier.
+
+    These stats must exist before CE's autopatcher runs, i.e. in XML, not in our
+    StaticConstructorOnStartup. Adding them to the abstract bases covers every supported armor
+    and helmet on Core, Royalty and Biotech.
+  -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[@Name="ApparelArmorReconBase"]/statBases</xpath>
+          <value>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[@Name="ApparelArmorHelmetReconBase"]/statBases</xpath>
+          <value>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[@Name="ApparelArmorPowerBase"]/statBases</xpath>
+          <value>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[@Name="ApparelArmorHelmetPowerBase"]/statBases</xpath>
+          <value>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[@Name="ApparelArmorCataphractBase"]/statBases</xpath>
+          <value>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[@Name="ApparelArmorHelmetCataphractBase"]/statBases</xpath>
+          <value>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

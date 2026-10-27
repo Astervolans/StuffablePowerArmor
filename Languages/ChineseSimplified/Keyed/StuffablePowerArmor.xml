@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StuffablePowerArmor.SettingsCategory>可更换材质的动力装甲</StuffablePowerArmor.SettingsCategory>
+  <StuffablePowerArmor.MaterialEffect>材料影响</StuffablePowerArmor.MaterialEffect>
+  <StuffablePowerArmor.MaterialEffectTooltip>所选材料的属性对成品的影响程度。100%表示该材料与玻璃钢之间的全部差异都会生效。使用玻璃钢时始终与原版物品完全一致。修改会在重启游戏后生效。</StuffablePowerArmor.MaterialEffectTooltip>
+  <StuffablePowerArmor.PercentLabel>材料影响：{0}</StuffablePowerArmor.PercentLabel>
+  <StuffablePowerArmor.AllowedCategories>允许的材料类别</StuffablePowerArmor.AllowedCategories>
+  <StuffablePowerArmor.AllowedCategoriesTooltip>制作受支持护甲时允许使用哪些类别的材料。金属始终可用，其余类别可选。修改会在重启游戏后生效。</StuffablePowerArmor.AllowedCategoriesTooltip>
+  <StuffablePowerArmor.CatWoody>木头</StuffablePowerArmor.CatWoody>
+  <StuffablePowerArmor.CatFabric>织物与皮革</StuffablePowerArmor.CatFabric>
+  <StuffablePowerArmor.CatStony>石砖</StuffablePowerArmor.CatStony>
+  <StuffablePowerArmor.CatMetallic>金属</StuffablePowerArmor.CatMetallic>
+  <StuffablePowerArmor.CatMetallicLocked>金属类别为必需类别，无法关闭。</StuffablePowerArmor.CatMetallicLocked>
+  <StuffablePowerArmor.CleanupButton>清理所有受支持护甲的材料设置</StuffablePowerArmor.CleanupButton>
+  <StuffablePowerArmor.CleanupTooltip>清除本存档中所有受支持护甲所选的材料，使其回到原版默认状态。移除模组前请先执行此操作，然后保存并退出。</StuffablePowerArmor.CleanupTooltip>
+  <StuffablePowerArmor.CleanupNone>本存档中没有找到受支持的护甲。</StuffablePowerArmor.CleanupNone>
+  <StuffablePowerArmor.CleanupDone>已清除 {0} 件受支持护甲的材料设置。</StuffablePowerArmor.CleanupDone>
+  <StuffablePowerArmor.CleanupRemaining>仍有 {0} 件受支持护甲带有材料设置，请再次清理。</StuffablePowerArmor.CleanupRemaining>
+  <StuffablePowerArmor.CleanupSafe>受支持护甲上没有残留的自定义材料设置。现在可以移除模组，请直接保存并退出。</StuffablePowerArmor.CleanupSafe>
+  <StuffablePowerArmor.SafeToRemove>可以移除mod，请直接保存并退出。</StuffablePowerArmor.SafeToRemove>
+  <StuffablePowerArmor.SettingsApplied>设置已应用。</StuffablePowerArmor.SettingsApplied>
+  <StuffablePowerArmor.NeedsRestart>修改将在重启游戏后生效。</StuffablePowerArmor.NeedsRestart>
+  <StuffablePowerArmor.CleanupDialogTitle>可更换材质的动力装甲</StuffablePowerArmor.CleanupDialogTitle>
+</LanguageData>
